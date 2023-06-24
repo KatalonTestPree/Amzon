@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search_WithoutLogin,,,,2023-06-24 13:26:34,2023-06-24 13:26:34,0.487s,ERROR
+,,,,,,,
+Test Cases/Common/TC_Launch,,,,2023-06-24 13:26:34,2023-06-24 13:26:34,0.036s,ERROR
+,,,,,,,
+Test Cases/Shopping/TC_Search,,,,2023-06-24 13:26:34,2023-06-24 13:26:34,0.014s,ERROR

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CheckOut_Login,,,,2023-06-24 13:26:27,2023-06-24 13:26:27,0.568s,ERROR
+,,,,,,,
+Test Cases/Common/TC_Login,,,,2023-06-24 13:26:27,2023-06-24 13:26:27,0.050s,ERROR
+,,,,,,,
+Test Cases/Shopping/TC_Search,,,,2023-06-24 13:26:27,2023-06-24 13:26:27,0.009s,ERROR
+,,,,,,,
+Test Cases/Shopping/TC_CheckOut,,,,2023-06-24 13:26:27,2023-06-24 13:26:27,0.009s,ERROR
+,,,,,,,
+Test Cases/Shopping/TC_DeliveryOptionPage,,,,2023-06-24 13:26:27,2023-06-24 13:26:27,0.011s,ERROR
