@@ -12,13 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>bfe43de0-cbe9-4bce-be43-e554ff38ebc4</testSuiteGuid>
    <testCaseLink>
-      <guid>6976cca8-f4e2-4f7c-b6ff-a00c79a8018b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Common/TC_Login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>22895bc0-11ec-425f-aea7-2808bd2a36f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
