@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_search" time="223.426" tests="4" failures="0" errors="0">
+   <testsuite name="Login_search" tests="4" failures="0" errors="0" time="223.426" skipped="0" timestamp="2023-06-28 14:01:04" hostname="Preethi Kutty - DESKTOP-90FTU1C" id="Test Suites/Login_search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Preethi\\Amzon\\Reports\\20230628_140039\\Login_search\\20230628_140039"/>
+         <property name="logFiles" value="G:\\Preethi\\Amzon\\Reports\\20230628_140039\\Login_search\\20230628_140039\\execution0.log"/>
+         <property name="attachments" value="G:\\Preethi\\Amzon\\Reports\\20230628_140039\\Login_search\\20230628_140039\\1687941126011.png"/>
+         <property name="hostName" value="Preethi Kutty - DESKTOP-90FTU1C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="169.254.36.255"/>
+         <property name="sessionId" value="9e2a7681aa82d394f2bad4d44a9967cc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common/Login" time="77.708" classname="Test Cases/Common/Login" status="PASSED">
+         <system-out><![CDATA[2023-06-28 14:02:07 - [TEST_CASE][PASSED] - Test Cases/Common/Login: Test Cases/Common/Login
+
+2023-06-28 14:02:07 - [TEST_STEP][PASSED] - openBrowser("https://www.amazon.in/"): Browser is opened with url: 'https://www.amazon.in/'
+
+2023-06-28 14:02:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-06-28 14:02:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-28 14:02:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-28 14:02:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.amazon.in/'
+
+2023-06-28 14:02:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-28 14:02:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-28 14:02:23 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-06-28 14:02:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-06-28 14:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/lnk_Sign")): Object: 'Object Repository/Common/lnk_Sign' is clicked on
+
+2023-06-28 14:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/lnk_Sign' is clicked on
+
+2023-06-28 14:02:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-28 14:02:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-28 14:02:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Common/txt_UserName"), "preethijeffy@gmail.com"): Text 'preethijeffy@gmail.com' is set on object 'Object Repository/Common/txt_UserName'
+
+2023-06-28 14:02:40 - [MESSAGE][PASSED] - Text 'preethijeffy@gmail.com' is set on object 'Object Repository/Common/txt_UserName'
+
+2023-06-28 14:02:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-06-28 14:02:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-28 14:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/btn_continue")): Object: 'Object Repository/Common/btn_continue' is clicked on
+
+2023-06-28 14:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/btn_continue' is clicked on
+
+2023-06-28 14:02:44 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-06-28 14:02:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-06-28 14:02:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Common/txt_Password"), "jesuslord1221*"): Text 'jesuslord1221*' is set on object 'Object Repository/Common/txt_Password'
+
+2023-06-28 14:02:57 - [MESSAGE][PASSED] - Text 'jesuslord1221*' is set on object 'Object Repository/Common/txt_Password'
+
+2023-06-28 14:02:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-28 14:02:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-28 14:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/btn_Login")): Object: 'Object Repository/Common/btn_Login' is clicked on
+
+2023-06-28 14:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/btn_Login' is clicked on
+
+2023-06-28 14:03:19 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-06-28 14:03:25 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping/Search_Item" time="63.198" classname="Test Cases/Shopping/Search_Item" status="PASSED">
+         <system-out><![CDATA[2023-06-28 14:03:25 - [TEST_CASE][PASSED] - Test Cases/Shopping/Search_Item: Test Cases/Shopping/Search_Item
+
+2023-06-28 14:03:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-28 14:03:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-28 14:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/txt_Search")): Object: 'Object Repository/Search/txt_Search' is clicked on
+
+2023-06-28 14:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/txt_Search' is clicked on
+
+2023-06-28 14:03:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-28 14:03:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-28 14:03:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/txt_Search"), "black water bottle"): Text 'black water bottle' is set on object 'Object Repository/Search/txt_Search'
+
+2023-06-28 14:03:40 - [MESSAGE][PASSED] - Text 'black water bottle' is set on object 'Object Repository/Search/txt_Search'
+
+2023-06-28 14:03:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-28 14:03:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-28 14:03:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/txt_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/txt_Search'
+
+2023-06-28 14:03:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/txt_Search'
+
+2023-06-28 14:03:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-28 14:03:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-28 14:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/wel_ItemImg")): Object: 'Object Repository/Search/wel_ItemImg' is clicked on
+
+2023-06-28 14:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/wel_ItemImg' is clicked on
+
+2023-06-28 14:04:03 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-06-28 14:04:07 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-06-28 14:04:07 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2023-06-28 14:04:08 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-06-28 14:04:08 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-06-28 14:04:12 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-06-28 14:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/btn_AddCart")): Object: 'Object Repository/Search/btn_AddCart' is clicked on
+
+2023-06-28 14:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/btn_AddCart' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping/TC_CheckOut" time="11.825" classname="Test Cases/Shopping/TC_CheckOut" status="PASSED">
+         <system-out><![CDATA[2023-06-28 14:04:28 - [TEST_CASE][PASSED] - Test Cases/Shopping/TC_CheckOut: Test Cases/Shopping/TC_CheckOut
+
+2023-06-28 14:04:29 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-06-28 14:04:33 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-06-28 14:04:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pge_CheckOut/btn_CheckOut")): Object: 'Object Repository/pge_CheckOut/btn_CheckOut' is clicked on
+
+2023-06-28 14:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/pge_CheckOut/btn_CheckOut' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shopping/TC_SelectDelivery" time="7.567" classname="Test Cases/Shopping/TC_SelectDelivery" status="PASSED">
+         <system-out><![CDATA[2023-06-28 14:04:40 - [TEST_CASE][PASSED] - Test Cases/Shopping/TC_SelectDelivery: Test Cases/Shopping/TC_SelectDelivery
+
+2023-06-28 14:04:41 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-06-28 14:04:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-06-28 14:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pge_Delivery/rdb_DeliveryAddress")): Object: 'Object Repository/pge_Delivery/rdb_DeliveryAddress' is clicked on
+
+2023-06-28 14:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/pge_Delivery/rdb_DeliveryAddress' is clicked on
+
+2023-06-28 14:04:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-28 14:04:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-28 14:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pge_Delivery/btn_UseAddress")): Object: 'Object Repository/pge_Delivery/btn_UseAddress' is clicked on
+
+2023-06-28 14:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/pge_Delivery/btn_UseAddress' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-28 14:01:04 - [TEST_SUITE][FAILED] - Login_search: Test Cases/Common/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Common/lnk_Sign'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Login.run(Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687941039725.run(TempTestSuite1687941039725.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/lnk_Sign' located by '//div[@class='nav-line-1-container']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-06-28 14:01:04 - [TEST_SUITE][FAILED] - Login_search: Test Cases/Common/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Common/lnk_Sign'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Login.run(Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687941039725.run(TempTestSuite1687941039725.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/lnk_Sign' located by '//div[@class='nav-line-1-container']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

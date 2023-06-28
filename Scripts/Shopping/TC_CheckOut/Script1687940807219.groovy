@@ -18,11 +18,4 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(4)
-WebUI.click(findTestObject('Object Repository/pge_Delivery/rdb_DeliveryAddress'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/pge_Delivery/btn_UseAddress'))
-
-
-
+WebUI.click(findTestObject('Object Repository/pge_CheckOut/btn_CheckOut'))
