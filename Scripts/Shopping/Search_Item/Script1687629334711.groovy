@@ -18,7 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.delay(4)
+
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Search/txt_Search'))
 WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Search/txt_Search'),'black water bottle')
@@ -29,6 +30,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Search/wel_ItemImg'))
 
+WebUI.delay(4)
 
-WebUI.delay(9)
+WebUI.switchToWindowIndex(1)
+WebUI.delay(4)
 WebUI.click(findTestObject('Object Repository/Search/btn_AddCart'))

@@ -6,11 +6,11 @@
    <elementGuidId>6ae158af-c43c-497e-b6f3-2005e1fecf41</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='add-to-cart-button']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@name=&quot;submit.add-to-cart&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

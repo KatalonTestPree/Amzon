@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_search,Chrome 114.0.0.0,,,2023-06-28 13:22:53,2023-06-28 13:25:54,3m - 0.412s,FAILED
+,,,,,,,
+Test Cases/Common/Login,Chrome 114.0.0.0,,,2023-06-28 13:22:54,2023-06-28 13:23:30,36.693s,PASSED
+"openBrowser(""https://www.amazon.in/"")",Chrome 114.0.0.0,,,2023-06-28 13:22:55,2023-06-28 13:23:05,10.722s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-28 13:23:05,2023-06-28 13:23:06,0.467s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 13:23:06,2023-06-28 13:23:10,4.066s,PASSED
+"click(findTestObject(""Object Repository/Common/lnk_Sign""))",Chrome 114.0.0.0,,,2023-06-28 13:23:10,2023-06-28 13:23:12,2.104s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 13:23:12,2023-06-28 13:23:14,2.004s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_UserName""), ""preethijeffy@gmail.com"")",Chrome 114.0.0.0,,,2023-06-28 13:23:14,2023-06-28 13:23:15,0.937s,PASSED
+delay(1),Chrome 114.0.0.0,,,2023-06-28 13:23:15,2023-06-28 13:23:16,1.005s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_continue""))",Chrome 114.0.0.0,,,2023-06-28 13:23:16,2023-06-28 13:23:17,1.270s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 13:23:17,2023-06-28 13:23:21,4.004s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_Password""), ""jesuslord1221*"")",Chrome 114.0.0.0,,,2023-06-28 13:23:21,2023-06-28 13:23:22,0.784s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 13:23:22,2023-06-28 13:23:24,2.004s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_Login""))",Chrome 114.0.0.0,,,2023-06-28 13:23:24,2023-06-28 13:23:24,0.511s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-06-28 13:23:24,2023-06-28 13:23:30,6.005s,PASSED
+,,,,,,,
+Test Cases/Shopping/Search_Item,Chrome 114.0.0.0,,,2023-06-28 13:25:18,2023-06-28 13:25:54,35.551s,FAILED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 13:25:18,2023-06-28 13:25:22,4.012s,PASSED
+switchToWindowIndex(1),Chrome 114.0.0.0,,,2023-06-28 13:25:22,2023-06-28 13:25:54,31.519s,FAILED

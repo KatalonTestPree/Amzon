@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_search,Chrome 114.0.0.0,,,2023-06-28 12:00:57,2023-06-28 12:05:45,4m - 47.460s,FAILED
+,,,,,,,
+Test Cases/Common/Login,Chrome 114.0.0.0,,,2023-06-28 12:00:58,2023-06-28 12:01:26,28.410s,PASSED
+"openBrowser(""https://www.amazon.in/"")",Chrome 114.0.0.0,,,2023-06-28 12:00:58,2023-06-28 12:01:07,8.888s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-28 12:01:07,2023-06-28 12:01:08,0.350s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 12:01:08,2023-06-28 12:01:12,4.040s,PASSED
+"click(findTestObject(""Object Repository/Common/lnk_Sign""))",Chrome 114.0.0.0,,,2023-06-28 12:01:12,2023-06-28 12:01:14,1.881s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 12:01:14,2023-06-28 12:01:16,2.004s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_UserName""), ""preethijeffy@gmail.com"")",Chrome 114.0.0.0,,,2023-06-28 12:01:16,2023-06-28 12:01:16,0.897s,PASSED
+delay(1),Chrome 114.0.0.0,,,2023-06-28 12:01:16,2023-06-28 12:01:18,1.004s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_continue""))",Chrome 114.0.0.0,,,2023-06-28 12:01:18,2023-06-28 12:01:19,1.343s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 12:01:19,2023-06-28 12:01:23,4.005s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_Password""), ""jesuslord1221*"")",Chrome 114.0.0.0,,,2023-06-28 12:01:23,2023-06-28 12:01:24,0.789s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 12:01:24,2023-06-28 12:01:26,2.006s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_Login""))",Chrome 114.0.0.0,,,2023-06-28 12:01:26,2023-06-28 12:01:26,0.528s,PASSED
+,,,,,,,
+Test Cases/Shopping/Search_Item,Chrome 114.0.0.0,,,2023-06-28 12:04:43,2023-06-28 12:05:45,1m - 1.956s,FAILED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 12:04:43,2023-06-28 12:04:47,4.006s,PASSED
+"click(findTestObject(""Object Repository/Search/txt_Search""))",Chrome 114.0.0.0,,,2023-06-28 12:04:47,2023-06-28 12:04:47,0.585s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 12:04:47,2023-06-28 12:04:49,2.008s,PASSED
+"setText(findTestObject(""Object Repository/Search/txt_Search""), ""black water bottle"")",Chrome 114.0.0.0,,,2023-06-28 12:04:49,2023-06-28 12:04:50,0.931s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-28 12:04:50,2023-06-28 12:04:53,3.004s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/txt_Search""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-06-28 12:04:53,2023-06-28 12:04:58,4.531s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 12:04:58,2023-06-28 12:05:00,2.004s,PASSED
+"click(findTestObject(""Object Repository/Search/wel_ItemImg""))",Chrome 114.0.0.0,,,2023-06-28 12:05:00,2023-06-28 12:05:01,0.774s,PASSED
+delay(9),Chrome 114.0.0.0,,,2023-06-28 12:05:01,2023-06-28 12:05:10,9.005s,PASSED
+"click(findTestObject(""Object Repository/Search/btn_AddCart""))",Chrome 114.0.0.0,,,2023-06-28 12:05:10,2023-06-28 12:05:45,35.088s,FAILED
