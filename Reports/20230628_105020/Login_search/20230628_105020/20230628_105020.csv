@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_search,Chrome 114.0.0.0,,,2023-06-28 10:50:40,2023-06-28 10:55:31,4m - 50.596s,FAILED
+,,,,,,,
+Test Cases/Common/Login,Chrome 114.0.0.0,,,2023-06-28 10:50:41,2023-06-28 10:51:11,30.487s,PASSED
+"openBrowser(""https://www.amazon.in/"")",Chrome 114.0.0.0,,,2023-06-28 10:50:41,2023-06-28 10:50:53,11.172s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-28 10:50:53,2023-06-28 10:50:53,0.509s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 10:50:53,2023-06-28 10:50:57,4.059s,PASSED
+"click(findTestObject(""Object Repository/Common/lnk_Sign""))",Chrome 114.0.0.0,,,2023-06-28 10:50:57,2023-06-28 10:50:59,1.727s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 10:50:59,2023-06-28 10:51:01,2.006s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_UserName""), ""preethijeffy@gmail.com"")",Chrome 114.0.0.0,,,2023-06-28 10:51:01,2023-06-28 10:51:02,0.900s,PASSED
+delay(1),Chrome 114.0.0.0,,,2023-06-28 10:51:02,2023-06-28 10:51:03,1.005s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_continue""))",Chrome 114.0.0.0,,,2023-06-28 10:51:03,2023-06-28 10:51:04,1.201s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 10:51:04,2023-06-28 10:51:08,4.006s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_Password""), ""jesuslord1221*"")",Chrome 114.0.0.0,,,2023-06-28 10:51:08,2023-06-28 10:51:09,0.790s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 10:51:09,2023-06-28 10:51:11,2.003s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_Login""))",Chrome 114.0.0.0,,,2023-06-28 10:51:11,2023-06-28 10:51:11,0.457s,PASSED
+,,,,,,,
+Test Cases/Shopping/Search_Item,Chrome 114.0.0.0,,,2023-06-28 10:54:54,2023-06-28 10:55:31,37.371s,FAILED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 10:54:54,2023-06-28 10:54:58,4.007s,PASSED
+"click(findTestObject(""Object Repository/Search/txt_Search""))",Chrome 114.0.0.0,,,2023-06-28 10:54:58,2023-06-28 10:55:31,33.334s,FAILED

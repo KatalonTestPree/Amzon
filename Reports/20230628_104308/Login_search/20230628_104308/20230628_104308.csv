@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_search,Chrome 114.0.0.0,,,2023-06-28 10:43:30,2023-06-28 10:45:09,1m - 39.113s,PASSED
+,,,,,,,
+Test Cases/Common/Login,Chrome 114.0.0.0,,,2023-06-28 10:43:31,2023-06-28 10:44:06,35.047s,PASSED
+"openBrowser(""https://www.amazon.in/"")",Chrome 114.0.0.0,,,2023-06-28 10:43:31,2023-06-28 10:43:46,15.139s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-28 10:43:46,2023-06-28 10:43:47,0.489s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 10:43:47,2023-06-28 10:43:51,4.043s,PASSED
+"click(findTestObject(""Object Repository/Common/lnk_Sign""))",Chrome 114.0.0.0,,,2023-06-28 10:43:51,2023-06-28 10:43:53,1.915s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 10:43:53,2023-06-28 10:43:55,2.005s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_UserName""), ""preethijeffy@gmail.com"")",Chrome 114.0.0.0,,,2023-06-28 10:43:55,2023-06-28 10:43:56,0.952s,PASSED
+delay(1),Chrome 114.0.0.0,,,2023-06-28 10:43:56,2023-06-28 10:43:57,1.004s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_continue""))",Chrome 114.0.0.0,,,2023-06-28 10:43:57,2023-06-28 10:43:58,1.463s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 10:43:58,2023-06-28 10:44:02,4.003s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_Password""), ""jesuslord1221*"")",Chrome 114.0.0.0,,,2023-06-28 10:44:02,2023-06-28 10:44:03,0.741s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 10:44:03,2023-06-28 10:44:05,2.003s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_Login""))",Chrome 114.0.0.0,,,2023-06-28 10:44:05,2023-06-28 10:44:06,0.471s,PASSED
+,,,,,,,
+Test Cases/Shopping/Search_Item,Chrome 114.0.0.0,,,2023-06-28 10:44:53,2023-06-28 10:45:09,16.176s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-28 10:44:53,2023-06-28 10:44:57,4.005s,PASSED
+"click(findTestObject(""Object Repository/Search/txt_Search""))",Chrome 114.0.0.0,,,2023-06-28 10:44:57,2023-06-28 10:44:58,1.062s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 10:44:58,2023-06-28 10:45:00,2.005s,PASSED
+"setText(findTestObject(""Object Repository/Search/txt_Search""), ""black water bottle"")",Chrome 114.0.0.0,,,2023-06-28 10:45:00,2023-06-28 10:45:01,0.943s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-28 10:45:01,2023-06-28 10:45:03,2.004s,PASSED
+"click(findTestObject(""Object Repository/Search/wel_ItemImg""))",Chrome 114.0.0.0,,,2023-06-28 10:45:03,2023-06-28 10:45:09,6.100s,PASSED
