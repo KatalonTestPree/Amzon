@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Searech_Checkout,Chrome 114.0.0.0,,,2023-06-30 09:08:00,2023-06-30 09:09:49,1m - 49.018s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Launch,Chrome 114.0.0.0,,,2023-06-30 09:08:01,2023-06-30 09:08:23,21.769s,PASSED
+"openBrowser(""https://www.amazon.in/"")",Chrome 114.0.0.0,,,2023-06-30 09:08:02,2023-06-30 09:08:18,16.567s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-30 09:08:18,2023-06-30 09:08:19,0.390s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 09:08:19,2023-06-30 09:08:23,4.050s,PASSED
+,,,,,,,
+Test Cases/Shopping/TC_FirstSearch,Chrome 114.0.0.0,,,2023-06-30 09:08:23,2023-06-30 09:09:14,51.212s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 09:08:23,2023-06-30 09:08:25,2.005s,PASSED
+"click(findTestObject(""Object Repository/Search/txt_Search""))",Chrome 114.0.0.0,,,2023-06-30 09:08:25,2023-06-30 09:08:26,0.738s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 09:08:26,2023-06-30 09:08:28,2.006s,PASSED
+"setText(findTestObject(""Object Repository/Search/txt_Search""), ""black water bottle"")",Chrome 114.0.0.0,,,2023-06-30 09:08:28,2023-06-30 09:08:29,1.188s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-30 09:08:29,2023-06-30 09:08:32,3.004s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/txt_Search""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-06-30 09:08:32,2023-06-30 09:08:42,9.799s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 09:08:42,2023-06-30 09:08:44,2.005s,PASSED
+"click(findTestObject(""Object Repository/Search/wel_ItemImg""))",Chrome 114.0.0.0,,,2023-06-30 09:08:44,2023-06-30 09:08:45,0.856s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 09:08:45,2023-06-30 09:08:49,4.004s,PASSED
+switchToWindowIndex(1),Chrome 114.0.0.0,,,2023-06-30 09:08:49,2023-06-30 09:08:49,0.059s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 09:08:49,2023-06-30 09:08:53,4.003s,PASSED
+"click(findTestObject(""Object Repository/Search/btn_AddCart""))",Chrome 114.0.0.0,,,2023-06-30 09:08:53,2023-06-30 09:09:14,20.881s,PASSED
+,,,,,,,
+Test Cases/Shopping/TC_CheckOut,Chrome 114.0.0.0,,,2023-06-30 09:09:14,2023-06-30 09:09:21,7.644s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 09:09:14,2023-06-30 09:09:18,4.010s,PASSED
+"click(findTestObject(""Object Repository/pge_CheckOut/btn_CheckOut""))",Chrome 114.0.0.0,,,2023-06-30 09:09:18,2023-06-30 09:09:21,2.953s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Inter_Login,Chrome 114.0.0.0,,,2023-06-30 09:09:21,2023-06-30 09:09:42,20.452s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 09:09:22,2023-06-30 09:09:24,2.010s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_UserName""), ""preethijeffy@gmail.com"")",Chrome 114.0.0.0,,,2023-06-30 09:09:24,2023-06-30 09:09:25,1.000s,PASSED
+delay(1),Chrome 114.0.0.0,,,2023-06-30 09:09:25,2023-06-30 09:09:26,1.004s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_continue""))",Chrome 114.0.0.0,,,2023-06-30 09:09:26,2023-06-30 09:09:29,2.135s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 09:09:29,2023-06-30 09:09:33,4.003s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_Password""), ""jesuslord1221*"")",Chrome 114.0.0.0,,,2023-06-30 09:09:33,2023-06-30 09:09:33,0.862s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 09:09:33,2023-06-30 09:09:35,2.003s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_Login""))",Chrome 114.0.0.0,,,2023-06-30 09:09:35,2023-06-30 09:09:36,0.440s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-06-30 09:09:36,2023-06-30 09:09:42,6.003s,PASSED
+,,,,,,,
+Test Cases/Shopping/TC_SelectDelivery,Chrome 114.0.0.0,,,2023-06-30 09:09:42,2023-06-30 09:09:49,7.436s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 09:09:42,2023-06-30 09:09:46,4.003s,PASSED
+"click(findTestObject(""Object Repository/pge_Delivery/rdb_DeliveryAddress""))",Chrome 114.0.0.0,,,2023-06-30 09:09:46,2023-06-30 09:09:47,0.519s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 09:09:47,2023-06-30 09:09:49,2.004s,PASSED
+"click(findTestObject(""Object Repository/pge_Delivery/btn_UseAddress""))",Chrome 114.0.0.0,,,2023-06-30 09:09:49,2023-06-30 09:09:49,0.436s,PASSED

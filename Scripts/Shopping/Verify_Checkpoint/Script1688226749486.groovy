@@ -17,16 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
-WebUI.setText(findTestObject('Object Repository/Common/txt_UserName'),'preethijeffy@gmail.com')
 
-WebUI.delay(1)
-WebUI.click(findTestObject('Object Repository/Common/btn_continue'))
-WebUI.delay(4)
-WebUI.setText(findTestObject('Object Repository/Common/txt_Password'),'jesuslord1221*')
 
-WebUI.delay(2)
-WebUI.takeElementScreenshotAsCheckpoint('test1', findTestObject('Common/btn_Login'))
-WebUI.click(findTestObject('Object Repository/Common/btn_Login'))
-
-WebUI.delay(6)

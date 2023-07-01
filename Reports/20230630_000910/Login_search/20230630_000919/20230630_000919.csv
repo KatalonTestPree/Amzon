@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_search,Chrome 114.0.0.0,,,2023-06-30 00:10:10,2023-06-30 00:16:50,6m - 40.416s,PASSED
+,,,,,,,
+Test Cases/Common/Login,Chrome 114.0.0.0,,,2023-06-30 00:12:16,2023-06-30 00:14:37,2m - 21.797s,PASSED
+"openBrowser(""https://www.amazon.in/"")",Chrome 114.0.0.0,,,2023-06-30 00:12:16,2023-06-30 00:14:08,1m - 52.430s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-30 00:14:08,2023-06-30 00:14:08,0.319s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 00:14:08,2023-06-30 00:14:12,4.012s,PASSED
+"click(findTestObject(""Object Repository/Common/lnk_Sign""))",Chrome 114.0.0.0,,,2023-06-30 00:14:12,2023-06-30 00:14:15,2.707s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 00:14:15,2023-06-30 00:14:17,2.005s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_UserName""), ""preethijeffy@gmail.com"")",Chrome 114.0.0.0,,,2023-06-30 00:14:17,2023-06-30 00:14:18,0.834s,PASSED
+delay(1),Chrome 114.0.0.0,,,2023-06-30 00:14:18,2023-06-30 00:14:19,1.005s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_continue""))",Chrome 114.0.0.0,,,2023-06-30 00:14:19,2023-06-30 00:14:24,5.037s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 00:14:24,2023-06-30 00:14:28,4.005s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_Password""), ""jesuslord1221*"")",Chrome 114.0.0.0,,,2023-06-30 00:14:28,2023-06-30 00:14:29,0.913s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 00:14:29,2023-06-30 00:14:31,2.006s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_Login""))",Chrome 114.0.0.0,,,2023-06-30 00:14:31,2023-06-30 00:14:31,0.492s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-06-30 00:14:31,2023-06-30 00:14:37,6.005s,PASSED
+,,,,,,,
+Test Cases/Shopping/Search_Item,Chrome 114.0.0.0,,,2023-06-30 00:14:37,2023-06-30 00:16:20,1m - 42.076s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 00:14:38,2023-06-30 00:14:40,2.006s,PASSED
+"click(findTestObject(""Object Repository/Search/txt_Search""))",Chrome 114.0.0.0,,,2023-06-30 00:14:40,2023-06-30 00:14:47,6.779s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 00:14:47,2023-06-30 00:14:49,2.006s,PASSED
+"setText(findTestObject(""Object Repository/Search/txt_Search""), ""black water bottle"")",Chrome 114.0.0.0,,,2023-06-30 00:14:49,2023-06-30 00:14:50,1.233s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-30 00:14:50,2023-06-30 00:14:53,3.004s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/txt_Search""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-06-30 00:14:53,2023-06-30 00:15:10,16.749s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 00:15:10,2023-06-30 00:15:12,2.004s,PASSED
+"click(findTestObject(""Object Repository/Search/wel_ItemImg""))",Chrome 114.0.0.0,,,2023-06-30 00:15:12,2023-06-30 00:15:14,2.520s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 00:15:14,2023-06-30 00:15:18,4.008s,PASSED
+switchToWindowIndex(1),Chrome 114.0.0.0,,,2023-06-30 00:15:18,2023-06-30 00:15:18,0.054s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 00:15:18,2023-06-30 00:15:23,4.005s,PASSED
+"click(findTestObject(""Object Repository/Search/btn_AddCart""))",Chrome 114.0.0.0,,,2023-06-30 00:15:23,2023-06-30 00:16:20,57.002s,PASSED
+,,,,,,,
+Test Cases/Shopping/TC_CheckOut,Chrome 114.0.0.0,,,2023-06-30 00:16:20,2023-06-30 00:16:39,19.016s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 00:16:20,2023-06-30 00:16:24,4.007s,PASSED
+"click(findTestObject(""Object Repository/pge_CheckOut/btn_CheckOut""))",Chrome 114.0.0.0,,,2023-06-30 00:16:24,2023-06-30 00:16:39,14.344s,PASSED
+,,,,,,,
+Test Cases/Shopping/TC_SelectDelivery,Chrome 114.0.0.0,,,2023-06-30 00:16:39,2023-06-30 00:16:50,11.415s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-06-30 00:16:39,2023-06-30 00:16:43,4.003s,PASSED
+"click(findTestObject(""Object Repository/pge_Delivery/rdb_DeliveryAddress""))",Chrome 114.0.0.0,,,2023-06-30 00:16:43,2023-06-30 00:16:46,2.716s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-30 00:16:46,2023-06-30 00:16:48,2.006s,PASSED
+"click(findTestObject(""Object Repository/pge_Delivery/btn_UseAddress""))",Chrome 114.0.0.0,,,2023-06-30 00:16:48,2023-06-30 00:16:50,2.182s,PASSED
