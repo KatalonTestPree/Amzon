@@ -35,3 +35,5 @@ WebUI.delay(4)
 WebUI.switchToWindowIndex(1)
 WebUI.delay(4)
 WebUI.click(findTestObject('Object Repository/Search/btn_AddCart'))
+
+WebUI.takeScreenshotAsCheckpoint(GlobalVariable.testl)

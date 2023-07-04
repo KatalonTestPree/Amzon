@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Searech_Checkout,Chrome 114.0.0.0,,,2023-07-04 11:34:55,2023-07-04 11:36:20,1m - 24.315s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Launch,Chrome 114.0.0.0,,,2023-07-04 11:34:56,2023-07-04 11:35:12,16.143s,PASSED
+"openBrowser(""https://www.amazon.in/"")",Chrome 114.0.0.0,,,2023-07-04 11:34:56,2023-07-04 11:35:07,10.948s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-04 11:35:07,2023-07-04 11:35:08,0.496s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-07-04 11:35:08,2023-07-04 11:35:12,4.068s,PASSED
+,,,,,,,
+Test Cases/Shopping/TC_FirstSearch,Chrome 114.0.0.0,,,2023-07-04 11:35:12,2023-07-04 11:35:45,33.119s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-04 11:35:13,2023-07-04 11:35:15,2.013s,PASSED
+"click(findTestObject(""Object Repository/Search/txt_Search""))",Chrome 114.0.0.0,,,2023-07-04 11:35:15,2023-07-04 11:35:15,0.621s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-04 11:35:15,2023-07-04 11:35:17,2.009s,PASSED
+"setText(findTestObject(""Object Repository/Search/txt_Search""), ""black water bottle"")",Chrome 114.0.0.0,,,2023-07-04 11:35:17,2023-07-04 11:35:18,0.858s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-04 11:35:18,2023-07-04 11:35:21,3.004s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/txt_Search""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-04 11:35:21,2023-07-04 11:35:26,5.276s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-04 11:35:26,2023-07-04 11:35:28,2.005s,PASSED
+"click(findTestObject(""Object Repository/Search/wel_ItemImg""))",Chrome 114.0.0.0,,,2023-07-04 11:35:28,2023-07-04 11:35:29,0.801s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-07-04 11:35:29,2023-07-04 11:35:33,4.013s,PASSED
+switchToWindowIndex(1),Chrome 114.0.0.0,,,2023-07-04 11:35:33,2023-07-04 11:35:34,1.369s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-07-04 11:35:34,2023-07-04 11:35:38,4.004s,PASSED
+"click(findTestObject(""Object Repository/Search/btn_AddCart""))",Chrome 114.0.0.0,,,2023-07-04 11:35:38,2023-07-04 11:35:43,4.588s,PASSED
+takeScreenshotAsCheckpoint(testl),Chrome 114.0.0.0,,,2023-07-04 11:35:43,2023-07-04 11:35:45,1.928s,PASSED
+,,,,,,,
+Test Cases/Shopping/TC_CheckOut,Chrome 114.0.0.0,,,2023-07-04 11:35:45,2023-07-04 11:35:52,6.997s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-07-04 11:35:46,2023-07-04 11:35:50,4.006s,PASSED
+"click(findTestObject(""Object Repository/pge_CheckOut/btn_CheckOut""))",Chrome 114.0.0.0,,,2023-07-04 11:35:50,2023-07-04 11:35:52,2.478s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Inter_Login,Chrome 114.0.0.0,,,2023-07-04 11:35:52,2023-07-04 11:36:12,20.164s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-04 11:35:53,2023-07-04 11:35:55,2.007s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_UserName""), ""preethijeffy@gmail.com"")",Chrome 114.0.0.0,,,2023-07-04 11:35:55,2023-07-04 11:35:56,0.949s,PASSED
+delay(1),Chrome 114.0.0.0,,,2023-07-04 11:35:56,2023-07-04 11:35:57,1.003s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_continue""))",Chrome 114.0.0.0,,,2023-07-04 11:35:57,2023-07-04 11:35:58,1.636s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-07-04 11:35:58,2023-07-04 11:36:02,4.009s,PASSED
+"setText(findTestObject(""Object Repository/Common/txt_Password""), ""jesuslord1221*"")",Chrome 114.0.0.0,,,2023-07-04 11:36:02,2023-07-04 11:36:03,0.792s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-04 11:36:03,2023-07-04 11:36:05,2.007s,PASSED
+"takeElementScreenshotAsCheckpoint(""test1"", findTestObject(""Common/btn_Login""))",Chrome 114.0.0.0,,,2023-07-04 11:36:05,2023-07-04 11:36:06,0.686s,PASSED
+"click(findTestObject(""Object Repository/Common/btn_Login""))",Chrome 114.0.0.0,,,2023-07-04 11:36:06,2023-07-04 11:36:06,0.513s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-04 11:36:06,2023-07-04 11:36:12,6.005s,PASSED
+,,,,,,,
+Test Cases/Shopping/TC_SelectDelivery,Chrome 114.0.0.0,,,2023-07-04 11:36:12,2023-07-04 11:36:20,7.389s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-07-04 11:36:13,2023-07-04 11:36:17,4.003s,PASSED
+"click(findTestObject(""Object Repository/pge_Delivery/rdb_DeliveryAddress""))",Chrome 114.0.0.0,,,2023-07-04 11:36:17,2023-07-04 11:36:17,0.434s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-07-04 11:36:17,2023-07-04 11:36:19,2.005s,PASSED
+"click(findTestObject(""Object Repository/pge_Delivery/btn_UseAddress""))",Chrome 114.0.0.0,,,2023-07-04 11:36:19,2023-07-04 11:36:20,0.418s,PASSED
