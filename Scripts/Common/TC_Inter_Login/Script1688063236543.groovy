@@ -27,6 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Common/txt_Password'),'jesuslord
 
 WebUI.delay(2)
 WebUI.takeElementScreenshotAsCheckpoint('test1', findTestObject('Common/btn_Login'))
+
 WebUI.click(findTestObject('Object Repository/Common/btn_Login'))
 
 WebUI.delay(6)

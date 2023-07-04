@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Deliver to Preethi'</initValue>
+      <name>testl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
